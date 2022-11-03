@@ -12,7 +12,7 @@ import anime from 'animejs'
 
 export default {
   data: () => ({
-    colours: ['#003C85', '#2C5197', '#005ED1', '#3F81D1', '#42526C', '#3579DC', '#4D71A3'],
+    colours: ['#003C85', '#2C5197', '#FB8C00', '#3F81D1', '#FB8C00', '#3579DC', '#4D71A3'],
     tl: null
   }),
   mounted () { this.animate() },
@@ -22,12 +22,12 @@ export default {
       this.tl = anime.timeline({ loop: true })
       this.tl.add({
         targets: '.dot',
-        translateY: [{ value: 25, duration: 250 }, { value: 0, duration: 700 }],
+        translateY: [{ value: 25, duration: 250 }, { value: 0, duration: 450 }],
         rotate: { value: '1turn' },
         borderRadius: 50,
         direction: 'alternate',
         easing: 'easeInOutQuad',
-        delay: () => { return anime.random(0, 1000) },
+        delay: () => { return anime.random(0, 600) },
         elasticity: 100
       })
     }
@@ -40,6 +40,11 @@ export default {
 
   #app {
     font-family: 'Jost', sans-serif;
+  }
+  p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    line-height: 1.4;
   }
   .row {
     justify-content: center;
@@ -60,7 +65,7 @@ export default {
     text-align: center;
   }
   .narrowCol {
-    max-width: 450px;
+    max-width: 485px;
     display: inline-block;
     color: #003C85;
     padding: 0 10px;

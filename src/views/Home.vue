@@ -3,7 +3,7 @@
     <v-row>
       <v-col class="contentCol">
         <v-icon size="100" color="#003C85">mdi-book-open-page-variant</v-icon>
-        <p class="heading">UofT Index</p>
+        <h1 class="heading">UofT Index</h1>
         <p class="narrowCol">
           Dedicated to helping students make informed decisions one course at a time.
         </p>

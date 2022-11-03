@@ -3,9 +3,11 @@
     <v-row>
       <v-col class="contentCol">
         <v-icon size="100" color="#003C85">mdi-book-open-page-variant</v-icon>
-        <h1 class="heading themeColour">We have moved!</h1>
+        <h1 class="heading themeColour">We've moved!</h1>
         <p class="narrowCol">
-          As of June 22/2022 we have moved to <a href="https://uoftindex.ca">uoftindex.ca</a>, please bookmark the new site. Thank you!
+          Starting November 28/2022, this URL will no longer be accessible.
+          We moved to <a href="https://uoftindex.ca">www.uoftindex.ca</a> on June 22/2022. Please bookmark the new site.
+          Thank you!
         </p>
       </v-col>
     </v-row>
